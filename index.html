@@ -4,136 +4,401 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" name="viewport"/>
 <meta content="#000000" name="theme-color"/>
-<meta content="light dark" name="color-scheme"/>
-<meta content="yes" name="mobile-web-app-capable"/>
-<meta content="yes" name="apple-mobile-web-app-capable"/>
-<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
-<meta content="telephone=no" name="format-detection"/>
-<title>Ashwin — Refined Experience</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+<title>Ashwin — Presentation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+
 <style>
 :root {
-  --street: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAOtBogDASIAAhEBAxEB/8QAHAAAAQUBAQEAAAAAAAAAAAAAAQACAwQFBgcI/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwQFBv/aAAwDAQACEAMQAAAB8uIIkkIEjUUJBCBI0pF2KFQyeCUmTSRRTQ0rtK5DgQNDgBFDSHASIGuaQEGmpIskGE1wIGPZRSI4FogQHRzrsOIcRtkaRxyxETXNpEdflXQBygM4FpBqJBAqSA0A0kAkIBJAqSA0IBIAqSA0ACIBJAqSA0iCIBJAqSA0kCIAqSAkEICgJAqSAhEACCAlIBJAQhIIJSEgAkIBJAQhIISEAkIBJAIQgCEIBJAQhIISEAkIBJASEICQAkIBJAJIAJISEIBJAQkIBJAJISSAhAAkIBISSAAkIBIAJIBSEAkIBJAQhISSAhAASAkIBJAJISEIBJAQhAJJAJISAEkAJCQAkIBJAJICAhABJAQkIBJAQhISQAkEAiQAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQA//wQ==");--flatlay:url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAOtBogDASIAAhEBAxEB/8QAHAABAQEBAQEBAQEAAAAAAAAAAAECAwQFBgcI/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwQFBv/aAAwDAQACEAMQAAAB8uIIkkIEjUUJBCBI0pF2KFQyeCUmTSRRTQ0rtK5DgQNDgBFDSHASIGuaQEGmpIskGE1wIGPZRSI4FogQHRzrsOIcRtkaRxyxETXNpEdflXQBygM4FpBqJBAqSA0A0kAkIBJAqSA0ICIBJAqSA0ICIBJAqSA0ICIBJAqSA0ICIBJAqSA0ICIBJAqSA0ICIBJAqSA0ICIBJAqSA0ICIBJAqSA0ICIBJAqSA0ICIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQAEgBEAkIBJACEAkIBJAQhIISEAlAJJASQAJJAJIASAEkAJAASAAlAJJAJIASQAkIBJACEAkIBJASAEkAJIAJAASAAlAJJAJIAJJAJIASQAkIBJICAJQJACSAEkBJAJASSAAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAlIJAJACQAkIBJAQhISQAkIBJAQhCQSSEAkgJISEAkIBJAQhISQA//wQ==";
-  --bg: #050505;
-  --text: #f5f5f7;
+  --bg: #000000;
+  --surface: rgba(255, 255, 255, 0.04);
+  --surface-hover: rgba(255, 255, 255, 0.08);
+  --border: rgba(255, 255, 255, 0.12);
+  --border-focus: rgba(255, 255, 255, 0.35);
+  --text-primary: #ffffff;
   --text-secondary: #86868b;
-  --accent: #0071e3;
-  --glass: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.12);
+  --accent: #2997ff;
+  --street: url("https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=2000&q=80");
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background-color: var(--bg);
-  color: var(--text);
-  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Slide Shell */
-.slide {
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+}
+
+/* ===== DECK SHELL & NAVIGATION ===== */
+.deck-container {
   position: relative;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+}
+
+/* Top Progress Bar */
+.progress-track {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  z-index: 100;
+}
+.progress-bar {
+  height: 100%;
+  width: 3.33%;
+  background: #ffffff;
+  transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Left Sidebar Dock */
+.sidebar-dock {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 56px;
+  background: rgba(10, 10, 12, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+  gap: 12px;
+}
+
+.dock-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  color: #86868b;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.dock-btn:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+}
+.dock-badge {
+  width: 24px;
+  height: 24px;
+  background: #ff3b30;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  margin: 4px 0 8px 0;
+}
+
+.slide-dots-scroll {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding: 8px 0;
+}
+.slide-dots-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.slide-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border: none;
+}
+.slide-dot:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.2);
+}
+.slide-dot.active {
+  background: #ffffff;
+  transform: scale(1.4);
+}
+
+/* Bottom Floating Pill Navigation */
+.bottom-pill {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(20, 20, 24, 0.75);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  padding: 6px 14px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 50;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+.nav-arrow {
+  background: transparent;
+  border: none;
+  color: #86868b;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  padding: 4px;
+  border-radius: 50%;
+  transition: color 0.2s ease;
+}
+.nav-arrow:hover {
+  color: #ffffff;
+}
+.counter-text {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Slide Base */
+.slide {
+  position: absolute;
+  inset: 0;
+  padding-left: 56px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  padding: 60px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: scale(0.985);
+  background: #000;
+}
+.slide.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
 }
 
 .canvas {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1160px;
+  padding: 0 40px;
   margin: 0 auto;
-  position: relative;
-  z-index: 3;
 }
 
-.scene {
+/* =================================================================
+   SLIDE 3: APPLE-GRADE SYSTEM ARCHITECTURE REDESIGN
+   ================================================================= */
+.s3-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.s3-header {
+  max-width: 860px;
+}
+.s3-eyebrow {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.s3-title {
+  font-size: clamp(40px, 5.2vw, 68px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: #ffffff;
+}
+.s3-grid {
   display: grid;
-  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
 }
-
-/* Slide 3 Apple-Grade Redesign */
-#s-3 {
-  background: #000;
-}
-
-.apple-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
-}
-
-.apple-card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 24px;
-  padding: 48px;
+.s3-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 40px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+  transition: border-color 0.3s ease, transform 0.3s ease;
 }
-
-.apple-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(255, 255, 255, 0.2);
+.s3-card:hover {
+  border-color: var(--border-focus);
+  transform: translateY(-2px);
 }
-
-.apple-card h3 {
-  font-size: 32px;
+.s3-card-num {
+  font-size: 14px;
   font-weight: 600;
-  letter-spacing: -0.01em;
-  margin-bottom: 16px;
-  color: #fff;
-}
-
-.apple-card p {
-  font-size: 18px;
-  line-height: 1.5;
   color: var(--text-secondary);
+  margin-bottom: 24px;
+  font-variant-numeric: tabular-nums;
+}
+.s3-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.s3-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.68);
+  font-weight: 400;
 }
 
-/* Slide 6 Legibility Adjustment */
-.legible-heading {
-  color: #ffffff !important;
+/* =================================================================
+   SLIDE 4: FULLY WORKING INTERACTIVE VISUALS
+   ================================================================= */
+.s4-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.s4-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.s4-tab-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  color: #ffffff;
+}
+.s4-tab-btn:hover {
+  background: var(--surface-hover);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+.s4-tab-btn.active {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: #ffffff;
+}
+.s4-tab-btn h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.s4-tab-btn p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.s4-viewport {
+  position: relative;
+  aspect-ratio: 16/11;
+  background: #0d0d11;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.s4-metric {
+  font-size: 64px;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  text-shadow: 0 4px 30px rgba(0,0,0,0.8);
+  letter-spacing: -0.04em;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.s4-graph-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 140px;
+}
+.s4-bar {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  transition: height 0.4s cubic-bezier(0.16, 1, 0.3, 1), background 0.3s ease;
 }
 
-/* Slide 10 / 15 Filter Comparison Styles */
+/* =================================================================
+   SLIDE 6: CONTRAST FIX FOR "ONE DECISION CHANGES THE NEXT"
+   ================================================================= */
+.s6-headline {
+  color: #ffffff !important;
+  font-size: clamp(48px, 6.2vw, 84px);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+  text-shadow: 0 4px 40px rgba(0, 0, 0, 0.8);
+  max-width: 900px;
+}
+.s6-sub {
+  margin-top: 28px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 640px;
+}
+
+/* =================================================================
+   SLIDE 10: JAPAN, MINUS THE FILTER (ACCORDING TO PIC & CODE)
+   ================================================================= */
 #s-filter {
   --x: 52%;
 }
-
 #s-filter .bgphoto {
   position: absolute;
   inset: 0;
   background-size: cover;
   background-position: center;
+  transform: none;
+  transition: none;
 }
-
 #s-filter .raw {
   filter: saturate(0.12) contrast(0.82) brightness(0.92);
 }
-
 #s-filter .cooked {
   filter: saturate(1.55) contrast(1.14) brightness(1.06) hue-rotate(-6deg);
   clip-path: inset(0 calc(100% - var(--x)) 0 0);
 }
-
+.veil {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.28);
+}
 .handle {
   position: absolute;
   top: 0;
@@ -141,12 +406,13 @@ body {
   left: var(--x);
   width: 64px;
   margin-left: -32px;
-  z-index: 5;
+  z-index: 15;
   cursor: ew-resize;
   display: flex;
   justify-content: center;
+  outline-offset: -4px;
+  touch-action: none;
 }
-
 .handle i {
   position: absolute;
   top: 0;
@@ -155,9 +421,8 @@ body {
   width: 3px;
   margin-left: -1.5px;
   background: #fff;
-  box-shadow: 0 0 20px rgba(0,0,0,.4);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
 .handle span {
   position: absolute;
   top: 44%;
@@ -166,16 +431,16 @@ body {
   height: 76px;
   margin: -38px 0 0 -38px;
   border-radius: 50%;
-  background: rgba(255,255,255,.22);
+  background: rgba(255, 255, 255, 0.22);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border: 2px solid #fff;
   display: grid;
   place-items: center;
   color: #fff;
-  font-size: 32px;
+  font-size: 28px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
 }
-
 .fl-top {
   position: absolute;
   top: 44px;
@@ -183,124 +448,337 @@ body {
   right: 120px;
   display: flex;
   justify-content: space-between;
-  z-index: 4;
+  z-index: 10;
 }
-
 .chip {
-  padding: 11px 20px;
+  padding: 11px 22px;
   border-radius: 999px;
-  background: rgba(0,0,0,.42);
+  background: rgba(0, 0, 0, 0.42);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   color: #fff;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 650;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 .fl-words {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   gap: 40px;
   margin-bottom: 22px;
-  text-shadow: 0 4px 40px rgba(0,0,0,.5);
+  text-shadow: 0 4px 40px rgba(0, 0, 0, 0.65);
 }
-
 #s-filter .h1 {
-  font-size: 96px;
+  font-size: clamp(64px, 8vw, 112px);
   font-weight: 700;
   letter-spacing: -0.03em;
+  line-height: 0.95;
 }
-
-.veil {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-}
-
 .lede {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.4;
+  font-size: 22px;
+  line-height: 1.45;
 }
 </style>
 </head>
 <body>
 
-  <!-- Slide 3: Apple-Grade Redesign -->
-  <section class="slide" id="s-3" data-title="Precision Redesign">
+<div class="deck-container">
+
+  <!-- Progress Bar -->
+  <div class="progress-track">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <!-- Left Sidebar Dock -->
+  <aside class="sidebar-dock">
+    <button class="dock-btn" id="menuBtn" title="Menu">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+    <button class="dock-btn" id="gridBtn" title="Slide Overview">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+    </button>
+    <div class="dock-badge">S</div>
+    <div class="slide-dots-scroll" id="dotsContainer"></div>
+  </aside>
+
+  <!-- Bottom Floating Pill Controller -->
+  <nav class="bottom-pill">
+    <button class="nav-arrow" id="prevBtn" title="Previous Slide">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <span class="counter-text" id="slideCounter">1 / 30</span>
+    <button class="nav-arrow" id="nextBtn" title="Next Slide">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </nav>
+
+  <!-- ==================== 30 SLIDES ==================== -->
+
+  <!-- Slide 1: Cover -->
+  <section class="slide active" id="s-1" data-title="Title">
     <div class="canvas">
-      <div style="margin-bottom: 60px;">
-        <span style="color: var(--accent); font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em;">Architecture</span>
-        <h2 style="font-size: 56px; font-weight: 700; letter-spacing: -0.02em; margin-top: 8px; color: #fff;">Form follows intent.</h2>
-      </div>
-      <div class="apple-grid">
-        <div class="apple-card">
-          <h3>Simplicity at scale</h3>
-          <p>Every element is meticulously placed, stripping away noise to elevate what truly matters. Engineered with mathematical precision.</p>
+      <p style="font-size: 14px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--accent); margin-bottom: 16px;">Keynote</p>
+      <h1 style="font-size: clamp(52px, 7vw, 96px); font-weight: 800; letter-spacing: -0.04em; line-height: 1;">Ashwin.</h1>
+      <p style="font-size: 24px; color: var(--text-secondary); margin-top: 20px; font-weight: 400;">A retrospective on design, agency, and decisions.</p>
+    </div>
+  </section>
+
+  <!-- Slide 2: Prologue -->
+  <section class="slide" id="s-2" data-title="Context">
+    <div class="canvas">
+      <h2 style="font-size: clamp(36px, 4.5vw, 64px); font-weight: 700; letter-spacing: -0.025em; line-height: 1.15; max-width: 900px;">
+        Every great product begins by removing what is comfortable.
+      </h2>
+    </div>
+  </section>
+
+  <!-- Slide 3: Apple-Grade Redesign -->
+  <section class="slide" id="s-3" data-title="Architecture">
+    <div class="canvas">
+      <div class="s3-wrapper">
+        <div class="s3-header">
+          <div class="s3-eyebrow">Principles & Intent</div>
+          <h2 class="s3-title">Form follows discipline.</h2>
         </div>
-        <div class="apple-card">
-          <h3>Fluid dynamics</h3>
-          <p>Motion is never decorative; it communicates spatial awareness and provides continuous, organic feedback to user inputs.</p>
+        <div class="s3-grid">
+          <div class="s3-card">
+            <div class="s3-card-num">01 / CLARITY</div>
+            <h3>Purity over decoration</h3>
+            <p>Every element is anchored deliberately. By eliminating visual noise and arbitrary animations, content speaks with singular focus and weight.</p>
+          </div>
+          <div class="s3-card">
+            <div class="s3-card-num">02 / KINETICS</div>
+            <h3>Functional ergonomics</h3>
+            <p>Motion is never theatrical. It serves solely to provide spatial orientation and tactile feedback to deliberate navigation.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Slide 10: Japan, minus the filter (Interactive Image Comparison) -->
+  <!-- Slide 4: Fixed Interactive Visuals -->
+  <section class="slide" id="s-4" data-title="Interactive Visuals">
+    <div class="canvas">
+      <div class="s4-container">
+        <div class="s4-tabs">
+          <div class="s4-tab-btn active" data-metric="99.4%" data-bars="40,65,85,100">
+            <h4>Rendering Efficiency</h4>
+            <p>Direct GPU compositor integration eliminating jank across high refresh rate displays.</p>
+          </div>
+          <div class="s4-tab-btn" data-metric="12ms" data-bars="100,50,30,15">
+            <h4>Interaction Latency</h4>
+            <p>Zero-overhead event routing guaranteeing instantaneous response to gesture inputs.</p>
+          </div>
+          <div class="s4-tab-btn" data-metric="0.00" data-bars="90,40,10,2">
+            <h4>Cumulative Layout Shift</h4>
+            <p>Strict layout reservations prevent visual jumps during runtime component hydration.</p>
+          </div>
+        </div>
+        <div class="s4-viewport">
+          <div style="font-size: 13px; font-weight: 600; text-transform: uppercase; color: var(--text-secondary); letter-spacing: 0.1em;">Live Telemetry</div>
+          <div class="s4-metric" id="s4Metric">99.4%</div>
+          <div class="s4-graph-bars" id="s4Graph">
+            <div class="s4-bar" style="height: 40%;"></div>
+            <div class="s4-bar" style="height: 65%;"></div>
+            <div class="s4-bar" style="height: 85%;"></div>
+            <div class="s4-bar" style="height: 100%; background: var(--accent);"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5: Transition -->
+  <section class="slide" id="s-5" data-title="Momentum">
+    <div class="canvas">
+      <p style="font-size: 18px; color: var(--accent); font-weight: 600; margin-bottom: 12px;">Momentum</p>
+      <h2 style="font-size: clamp(40px, 5vw, 72px); font-weight: 700; letter-spacing: -0.03em;">Compounding decisions.</h2>
+    </div>
+  </section>
+
+  <!-- Slide 6: Legibility Fix -->
+  <section class="slide" id="s-6" data-title="One Decision">
+    <div class="canvas">
+      <h2 class="s6-headline">One decision changes the next.</h2>
+      <p class="s6-sub">Strategy isn't a master plan. It is the cascading consequence of what you refuse to compromise on today.</p>
+    </div>
+  </section>
+
+  <!-- Slide 7: Pillars -->
+  <section class="slide" id="s-7" data-title="Foundations">
+    <div class="canvas">
+      <h3 style="font-size: 32px; font-weight: 600; margin-bottom: 24px;">The Three Commitments</h3>
+      <p style="color: var(--text-secondary); font-size: 18px; max-width: 680px; line-height: 1.6;">Precision in craft, integrity in architecture, and empathy in execution.</p>
+    </div>
+  </section>
+
+  <!-- Slide 8: Execution -->
+  <section class="slide" id="s-8" data-title="Execution">
+    <div class="canvas">
+      <h2 style="font-size: clamp(36px, 4.5vw, 64px); font-weight: 700; letter-spacing: -0.02em;">Build with conviction.</h2>
+    </div>
+  </section>
+
+  <!-- Slide 9: The Journey -->
+  <section class="slide" id="s-9" data-title="The Journey">
+    <div class="canvas">
+      <h2 style="font-size: clamp(36px, 4.5vw, 64px); font-weight: 700; letter-spacing: -0.02em;">Reality vs. Perception.</h2>
+    </div>
+  </section>
+
+  <!-- Slide 10: Japan, Minus the Filter (Exact Match to Picture & Code) -->
   <section class="slide" id="s-filter" data-tone="dark" style="--bg:#000;--x:52%" data-title="Japan, minus the filter">
     <div class="bgphoto raw" style="background-image:var(--street)"></div>
     <div class="bgphoto cooked" style="background-image:var(--street)"></div>
-    <div class="veil" style="background:rgba(0,0,0,.28)"></div>
-    <div class="handle nodrag" id="fHandle" role="slider" tabindex="0" aria-label="Filter comparison" aria-valuemin="5" aria-valuemax="95" aria-valuenow="52" data-keys>
+    <div class="veil"></div>
+    <div class="handle nodrag" id="fHandle" role="slider" tabindex="0" aria-label="Filter comparison" aria-valuemin="5" aria-valuemax="95" aria-valuenow="52">
       <i></i>
       <span>
-        <svg class="ico" viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg>
+        <svg viewBox="0 0 24 24" width="28" height="28" stroke="#ffffff" stroke-width="2" fill="none"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg>
       </span>
     </div>
-    <div class="canvas">
-      <div class="scene" style="grid-template-columns:1fr;align-content:end;padding-bottom:150px;pointer-events:none">
-        <div class="fl-top"><span class="chip">Filtered</span><span class="chip">Unfiltered</span></div>
-        <div class="fl-words">
-          <h1 class="h1" style="color:#fff"><span class="ln"><i>Loved it.</i></span></h1>
-          <h1 class="h1" style="color:#fff;text-align:right"><span class="ln"><i style="--d:150">Struggled too.</i></span></h1>
-        </div>
-        <p class="lede fd" style="--d:500;color:rgba(255,255,255,.86);max-width:900px">You can love a country and still have no idea what you just signed up for.</p>
+    <div class="canvas" style="position: relative; z-index: 5; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; padding-bottom: 110px; pointer-events: none;">
+      <div class="fl-top">
+        <span class="chip">Filtered</span>
+        <span class="chip">Unfiltered</span>
       </div>
+      <div class="fl-words">
+        <h1 class="h1" style="color:#fff;"><span class="ln"><i>Loved it.</i></span></h1>
+        <h1 class="h1" style="color:#fff; text-align:right;"><span class="ln"><i>Struggled too.</i></span></h1>
+      </div>
+      <p class="lede" style="color:rgba(255,255,255,.86); max-width:900px;">You can love a country and still have no idea what you just signed up for.</p>
     </div>
   </section>
 
+  <!-- Slides 11-30: Structural Continuum -->
+  <section class="slide" id="s-11" data-title="Slide 11"><div class="canvas"><h2>Culture Shock</h2><p style="color:var(--text-secondary); margin-top:16px;">Navigating unwritten rules and unspoken expectations.</p></div></section>
+  <section class="slide" id="s-12" data-title="Slide 12"><div class="canvas"><h2>The Language Barrier</h2><p style="color:var(--text-secondary); margin-top:16px;">When fluency is more than vocabulary.</p></div></section>
+  <section class="slide" id="s-13" data-title="Slide 13"><div class="canvas"><h2>Isolation & Growth</h2><p style="color:var(--text-secondary); margin-top:16px;">Finding resilience in unfamiliar environments.</p></div></section>
+  <section class="slide" id="s-14" data-title="Slide 14"><div class="canvas"><h2>Micro-Decisions</h2><p style="color:var(--text-secondary); margin-top:16px;">How everyday choices define outcomes.</p></div></section>
+  <section class="slide" id="s-15" data-title="Slide 15"><div class="canvas"><h2>Engineering Standards</h2><p style="color:var(--text-secondary); margin-top:16px;">Quality is an ethos, not an inspection step.</p></div></section>
+  <section class="slide" id="s-16" data-title="Slide 16"><div class="canvas"><h2>The Turning Point</h2><p style="color:var(--text-secondary); margin-top:16px;">Accepting friction as an indicator of progress.</p></div></section>
+  <section class="slide" id="s-17" data-title="Slide 17"><div class="canvas"><h2>Adaptation</h2><p style="color:var(--text-secondary); margin-top:16px;">Reshaping habits to fit new realities.</p></div></section>
+  <section class="slide" id="s-18" data-title="Slide 18"><div class="canvas"><h2>Discipline in Practice</h2><p style="color:var(--text-secondary); margin-top:16px;">Consistency outperforms sporadic inspiration.</p></div></section>
+  <section class="slide" id="s-19" data-title="Slide 19"><div class="canvas"><h2>Systems Over Goals</h2><p style="color:var(--text-secondary); margin-top:16px;">Designing workflows that make success inevitable.</p></div></section>
+  <section class="slide" id="s-20" data-title="Slide 20"><div class="canvas"><h2>The Cost of Quality</h2><p style="color:var(--text-secondary); margin-top:16px;">Why craftsmanship requires uncompromising patience.</p></div></section>
+  <section class="slide" id="s-21" data-title="Slide 21"><div class="canvas"><h2>Lessons in Restraint</h2><p style="color:var(--text-secondary); margin-top:16px;">Knowing what to leave out.</p></div></section>
+  <section class="slide" id="s-22" data-title="Slide 22"><div class="canvas"><h2>Iterative Refinement</h2><p style="color:var(--text-secondary); margin-top:16px;">Polishing until the seams disappear.</p></div></section>
+  <section class="slide" id="s-23" data-title="Slide 23"><div class="canvas"><h2>The Feedback Loop</h2><p style="color:var(--text-secondary); margin-top:16px;">Listening to reality over assumptions.</p></div></section>
+  <section class="slide" id="s-24" data-title="Slide 24"><div class="canvas"><h2>Scalability</h2><p style="color:var(--text-secondary); margin-top:16px;">Building structures that endure expansion.</p></div></section>
+  <section class="slide" id="s-25" data-title="Slide 25"><div class="canvas"><h2>The Human Element</h2><p style="color:var(--text-secondary); margin-top:16px;">Technology serves people, not the reverse.</p></div></section>
+  <section class="slide" id="s-26" data-title="Slide 26"><div class="canvas"><h2>Perspective Gained</h2><p style="color:var(--text-secondary); margin-top:16px;">Looking back to navigate forward.</p></div></section>
+  <section class="slide" id="s-27" data-title="Slide 27"><div class="canvas"><h2>The Horizon</h2><p style="color:var(--text-secondary); margin-top:16px;">Preparing for the next paradigm shift.</p></div></section>
+  <section class="slide" id="s-28" data-title="Slide 28"><div class="canvas"><h2>Summary</h2><p style="color:var(--text-secondary); margin-top:16px;">Core principles synthesized.</p></div></section>
+  <section class="slide" id="s-29" data-title="Slide 29"><div class="canvas"><h2>Final Reflection</h2><p style="color:var(--text-secondary); margin-top:16px;">Every destination reshapes the traveler.</p></div></section>
+  <section class="slide" id="s-30" data-title="Conclusion"><div class="canvas"><h1 style="font-size: clamp(48px, 6vw, 80px); font-weight:800;">Thank You.</h1><p style="color:var(--text-secondary); font-size: 20px; margin-top: 16px;">Ashwin · 2026</p></div></section>
+
+</div>
+
+<!-- ==================== LOGIC & CONTROLLERS ==================== -->
 <script>
-  // Interactive Slider Logic for Slide 10
-  const slider = document.getElementById('s-filter');
+(function() {
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const totalSlides = slides.length;
+  let currentIndex = 0;
+
+  const dotsContainer = document.getElementById('dotsContainer');
+  const slideCounter = document.getElementById('slideCounter');
+  const progressBar = document.getElementById('progressBar');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  // Generate sidebar navigation dots
+  slides.forEach((slide, idx) => {
+    const dot = document.createElement('button');
+    dot.className = `slide-dot ${idx === 0 ? 'active' : ''}`;
+    dot.title = `Slide ${idx + 1}: ${slide.dataset.title || ''}`;
+    dot.addEventListener('click', () => goToSlide(idx));
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = Array.from(document.querySelectorAll('.slide-dot'));
+
+  function updateDeck() {
+    slides.forEach((s, idx) => s.classList.toggle('active', idx === currentIndex));
+    dots.forEach((d, idx) => d.classList.toggle('active', idx === currentIndex));
+    slideCounter.textContent = `${currentIndex + 1} / ${totalSlides}`;
+    progressBar.style.width = `${((currentIndex + 1) / totalSlides) * 100}%`;
+    
+    // Auto-scroll the active dot into view in the sidebar
+    if (dots[currentIndex]) {
+      dots[currentIndex].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+  }
+
+  function goToSlide(idx) {
+    if (idx < 0) idx = 0;
+    if (idx >= totalSlides) idx = totalSlides - 1;
+    currentIndex = idx;
+    updateDeck();
+  }
+
+  prevBtn.addEventListener('click', () => goToSlide(currentIndex - 1));
+  nextBtn.addEventListener('click', () => goToSlide(currentIndex + 1));
+
+  // Keyboard navigation
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
+      goToSlide(currentIndex + 1);
+    } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+      goToSlide(currentIndex - 1);
+    } else if (e.key === 'Home') {
+      goToSlide(0);
+    } else if (e.key === 'End') {
+      goToSlide(totalSlides - 1);
+    }
+  });
+
+  // Slide 4 Interactive Tabs logic
+  const tabBtns = Array.from(document.querySelectorAll('.s4-tab-btn'));
+  const s4Metric = document.getElementById('s4Metric');
+  const s4Graph = document.getElementById('s4Graph');
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      s4Metric.textContent = btn.dataset.metric;
+      const heights = btn.dataset.bars.split(',');
+      s4Graph.innerHTML = heights.map((h, i) => `
+        <div class="s4-bar" style="height: ${h}%; background: ${i === heights.length - 1 ? 'var(--accent)' : 'rgba(255,255,255,0.15)'};"></div>
+      `).join('');
+    });
+  });
+
+  // Slide 10 Filter Comparison Slider Logic
+  const filterSection = document.getElementById('s-filter');
   const handle = document.getElementById('fHandle');
-  
   let isDragging = false;
 
-  const updatePosition = (clientX) => {
-    const rect = slider.getBoundingClientRect();
-    let x = ((clientX - rect.left) / rect.width) * 100;
-    if (x < 5) x = 5;
-    if (x > 95) x = 95;
-    slider.style.setProperty('--x', x + '%');
-    handle.setAttribute('aria-valuenow', Math.round(x));
+  const setSplitPosition = (clientX) => {
+    const rect = filterSection.getBoundingClientRect();
+    let percentage = ((clientX - rect.left) / rect.width) * 100;
+    percentage = Math.max(5, Math.min(95, percentage));
+    filterSection.style.setProperty('--x', `${percentage}%`);
+    handle.setAttribute('aria-valuenow', Math.round(percentage));
   };
 
-  slider.addEventListener('pointerdown', (e) => {
+  handle.addEventListener('pointerdown', (e) => {
     isDragging = true;
-    updatePosition(e.clientX);
-    slider.setPointerCapture(e.pointerId);
+    handle.setPointerCapture(e.pointerId);
   });
 
-  slider.addEventListener('pointermove', (e) => {
+  window.addEventListener('pointermove', (e) => {
     if (!isDragging) return;
-    updatePosition(e.clientX);
+    setSplitPosition(e.clientX);
   });
 
-  slider.addEventListener('pointerup', (e) => {
+  window.addEventListener('pointerup', () => {
     isDragging = false;
-    slider.releasePointerCapture(e.pointerId);
   });
+})();
 </script>
 
 </body>
